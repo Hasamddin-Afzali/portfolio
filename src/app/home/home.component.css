@@ -1,0 +1,44 @@
+.header{
+    background-image: url('/assets/img/header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn-custom{
+    border-radius: 0 !important;
+    background-color: transparent;
+    border: 2px solid orangered;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+.btn-custom:hover{
+    background-color: orangered;
+    transition: 0.5s ease;
+}
+.header-content{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 90px 0;
+    color: white;
+}
+.header-content h1{
+    font-size: 5rem;
+}
+.bg-light{
+    background-color: #f2f2f2 !important;
+}
+
+.service{
+    background-image: url('/assets/img/service.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.service-content{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .header-content h1{
+        font-size: 3rem;
+    }
+  }

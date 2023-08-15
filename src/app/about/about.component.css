@@ -1,0 +1,16 @@
+.about{
+    background-image: url('/assets/img/about.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-content{
+    background-color: rgba(0, 0, 0, 0.6);;
+}
+.wik{
+    background-image: url('/assets/img/wik.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wik-content{
+    background-color: rgba(0, 0, 0, 0.6);
+}
